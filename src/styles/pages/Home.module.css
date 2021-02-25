@@ -2,7 +2,7 @@
   height: 100vh;
   max-width: 992px;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 2.5rem 2rem;
 
   display: flex;
   flex-direction: column;
@@ -10,12 +10,10 @@
 
 .container section {
   flex: 1;
-  align-content: center;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
-}
-
-.leftContainer {
+  align-content: center;
+  margin-top: 2rem;
 }
